@@ -87,7 +87,7 @@ let resumeData = {
       imgurl: "https://i.ibb.co/d2PMLXs/interact.png"
     },
     {
-      name: "Burger Shot",
+      name: "Burger Smack",
       description:
         "A web application for a hamburger fast-food restaurant allowing customers to build custom burgers and place orders as well as track them.",
       url: "https://burgersmackfa.netlify.app/",
