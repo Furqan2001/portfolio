@@ -1,0 +1,49 @@
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.single-project {
+  width: 31%;
+  margin-bottom: 30px; 
+  background-color: white;
+  margin: 1%;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+.single-project img {
+  height: 140px;
+}
+
+.single-project a {
+  margin-bottom: 10px;
+}
+
+.portfolio-item-meta h5 {
+  padding-top: 5px;
+}
+
+.portfolio-item-meta p {
+  color: black;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .single-project {
+    width: 46%;
+    margin: 1%;
+  }
+
+  .portfolio-item-meta p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .single-project {
+    width: 90%;
+  }
+}
